@@ -51,6 +51,7 @@ impl Interpreter {
                 Ok(())
             }
             Stmt::Expression { expression } => {
+                println!("{:?}", self.evaluate(&expression)?);
                 self.evaluate(&expression)?;
                 Ok(())
             }
