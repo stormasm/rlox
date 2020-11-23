@@ -1,0 +1,8 @@
+var a = "michael";
+
+fun add(a, b) {
+  var c = a + b;
+  return(c);
+}
+
+//add(1,2);
