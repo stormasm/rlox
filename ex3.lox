@@ -2,3 +2,7 @@
 nil;
 !true;
 false;
+"rick";
+"hi" or 2;
+"bye" and 3;
+var a = 1;
