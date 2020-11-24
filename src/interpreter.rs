@@ -45,7 +45,7 @@ impl Interpreter {
     }
 
     fn execute(&mut self, stmt: &Stmt) -> Result<()> {
-        println!("P1 {:?}",stmt);
+        println!("P1 {:?}", stmt);
         match stmt {
             Stmt::Print { expression } => {
                 println!("{}", self.evaluate(&expression)?);

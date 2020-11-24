@@ -33,12 +33,12 @@ fn run_prompt() {
                 print_errors(&parser_errors);
 
                 if !lexer_errors.is_empty() || !parser_errors.is_empty() {
-                    std::process::exit(64);
+                    //std::process::exit(64);
                 }
 
                 let scopes = resolver::resolve(&statements);
                 if scopes.is_err() {
-                    std::process::exit(64);
+                    //std::process::exit(64);
                 }
                 interpreter.add_scopes(scopes.unwrap());
 
