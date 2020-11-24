@@ -6,3 +6,4 @@ false;
 "hi" or 2;
 "bye" and 3;
 var a = 1;
+var nick = "{color = blue, state = nm, zip = 87107}";
